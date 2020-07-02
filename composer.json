@@ -1,0 +1,19 @@
+{
+    "name": "mateus/myframework",
+    "authors": [
+        {
+            "name": "Mateus Vinicius",
+            "email": "mateusvinicios7@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^5.1",
+        "twig/twig": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CORE\\":"Core/",
+            "App\\":"App/"
+        }
+    }
+}
